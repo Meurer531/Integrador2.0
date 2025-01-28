@@ -1,0 +1,14 @@
+  #barPesquisa {
+    width: 100%;
+  }
+
+  .produtos {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 7%;
+  }

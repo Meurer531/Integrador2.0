@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*esse coisa é para definir um padrão definido aqui dentro,
+    no nosso caso é para retirar o padding e o margin colocados
+    automaticamente pelos navegadores, se tu tirar vai ver que o
+    header vai ficar com um espaçamento*/
+}
+
+body{
+    background-image: url(../imagens/background.jpg);
+    background-repeat: repeat;    
+}
+
+.barSup{
+    background-color: black;
+    height: 10vh;
+    
+    & #logo{
+        position: relative;
+        left: 10%;
+        font-size: 4vw;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-decoration: none;
+        font-style: italic;
+        font-weight: bold;
+        color: white;
+    }
+}
+
+.content{
+    position: relative;
+    left:10%;    
+    margin-top: 5%;
+
+    width: 80vw;
+    height: 60vh;
+    display: block;
+    background-color: #cecece;
+    
+
+    & .imagem{
+        position: absolute;/*tem que arrumar para ficar responsivo*/
+        width: 50%;
+        height: 100%;
+        margin-top: 2%;
+        margin-left: 4%;
+        display: block;
+        background-image: url(../imagens/fotoPI.png);
+        background-repeat:no-repeat;
+    }
+    
+    & .login{
+        float: right;
+        width: 50%;
+        height: 100%;     
+        display: block;
+        /*background-color: rgba(0, 0, 0, 0.39); só deixei para lembrar dentro do que esta mechendo*/
+        
+            & .campos{
+            margin-left: auto;
+            margin-right: auto;                    
+            /*background-color: chocolate; só deixei para lembrar dentro do que esta mechendo*/
+            display: flex;
+            flex-direction: column;
+            gap:0px;
+            font-size: 50px;
+            font-weight: bold;
+
+                & #link{
+                    font-size: small;
+                    margin-right: auto;
+                }
+                    
+                & .campo{
+                    border-radius: 20px;
+                    height: 25px;  
+                    width: 20em;               
+                }
+            }
+
+        & .botaos{
+            border-radius:20px;
+            height: 2em;
+            width: 10em;
+            font-size: large;
+            
+        }
+    }
+}
