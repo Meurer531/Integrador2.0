@@ -1,0 +1,98 @@
+body {
+    background-color: deepskyblue;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.b {
+    background-color: navy;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.central {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.central label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.central input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.central img {
+    width: 200px;
+    margin: auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px; 
+}
+
+.form-group div {
+    width: 97%; 
+}
+
+.radio-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.radio-group label {
+    margin-right: 15px;
+}
+
+/* Estilos Responsivos */
+@media screen and (max-width: 768px) {
+    .central {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .central img {
+        width: 150px;
+    }
+
+    .form-group {
+        flex-direction: column;
+    } 
+
+    .form-group div {
+        width: 100%;
+    }
+
+    .b {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}
