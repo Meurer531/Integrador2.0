@@ -1,0 +1,51 @@
+.item1 a,
+.item2 a,
+.item3 a {
+    text-decoration: none;
+}
+
+.item1,
+.item2,
+.item3 {
+    display: inline-block;
+    width: 200px;
+    background: white;
+    color: black;
+    padding: 1em;
+}
+
+#content1,
+#content2,
+#content3 {
+    display: none;
+}
+
+#content1 {
+    background: green;
+    color: white;
+    padding: 5em;
+}
+
+#content2 {
+    background: orange;
+    color: white;
+    padding: 5em;
+}
+
+#content3 {
+    background: black;
+    color: white;
+    padding: 5em;
+}
+
+#content1:target {
+    display: block;
+}
+
+#content2:target {
+    display: block;
+}
+
+#content3:target {
+    display: block;
+}
