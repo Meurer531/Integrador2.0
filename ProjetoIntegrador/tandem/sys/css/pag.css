@@ -7,13 +7,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 100vh;
+    position: relative;
 }
 
-.logos{
+.logos {
     width: 160px;
     margin-left: 510px;
     height: auto;
- 
 }
 
 .navbar {
@@ -79,24 +80,6 @@ body {
     margin-bottom: 30px;
 }
 
-.hero-buttons .btn-primary {
-    background-color: navy;
-}
-
-.hero-buttons .btn-primary:hover {
-    background-color: royalblue;
-    transform: scale(1.1);
-}
-
-.hero-buttons .btn-secondary {
-    background-color: dodgerblue;
-}
-
-.hero-buttons .btn-secondary:hover {
-    background-color: lightblue;
-    transform: scale(1.1);
-}
-
 .info {
     background-color: #fff;
     color: navy;
@@ -106,6 +89,7 @@ body {
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     animation: fadeInUp 1.5s;
+    margin-bottom: 100px; /* Adicionado para evitar que o conteúdo fique escondido atrás do footer */
 }
 
 .info h2 {
@@ -129,12 +113,13 @@ body {
 }
 
 footer {
-    margin-top: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     padding: 20px;
     background-color: navy;
     color: white;
     text-align: center;
-    width: 97%;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
 }
 
