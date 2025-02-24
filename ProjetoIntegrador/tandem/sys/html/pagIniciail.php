@@ -84,29 +84,29 @@ if ($_SESSION['Login'] == FALSE) {
                                 <!-- Slide 1 -->
                                 <div class="slide slide_1">
                                     <div class="slide-content">
-                                        <h2>Slide 1</h2>
-                                        <p>Content for slide 1</p>
+                                        <h2></h2>
+                                        <p></p>
                                     </div>
                                 </div>
                                 <!-- Slide 2 -->
                                 <div class="slide slide_2">
                                     <div class="slide-content">
-                                        <h2>Slide 2</h2>
-                                        <p>Content for slide 2</p>
+                                        <h2></h2>
+                                        <p></p>
                                     </div>
                                 </div>
                                 <!-- Slide 3 -->
                                 <div class="slide slide_3">
                                     <div class="slide-content">
-                                        <h2>Slide 3</h2>
-                                        <p>Content for slide 3</p>
+                                        <h2></h2>
+                                        <p></p>
                                     </div>
                                 </div>
                                 <!-- Slide 4 -->
                                 <div class="slide slide_4">
                                     <div class="slide-content">
-                                        <h2>Slide 4</h2>
-                                        <p>Content for slide 4</p>
+                                        <h2></h2>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
